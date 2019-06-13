@@ -36,7 +36,7 @@ export function initTeamDataTable(): void {
         localdata: teamData
     };
 
-    const dataAdapter = new $.jqx.dataAdapter(source);
+    const dataAdapter = new jqx.dataAdapter(source);
 
     const teamTableOptions =
         {
